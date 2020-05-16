@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* left-pop-wechart */
+.left-pop-wechart { position: fixed; top: 264px; left: 50%; margin-left: -805px; text-align: center; width: 200px; height: 266px; padding-top: 30px; background: url('../../images/2019/wechat/bg01.jpg') center bottom no-repeat; }
+.left-pop-wechart .t { font-size: 20px; line-height: 28px; font-weight: bold; color: #212121; }
+.left-pop-wechart .m { font-size: 12px; color: #212121; }
+.left-pop-wechart .e { display: block; margin: 10px auto 12px; padding: 3px; background-color: #fff; width: 128px; height: 128px; }
+.left-pop-wechart .e img { display: block; width: 100%; height: 100%; }
+.left-pop-wechart .b { display: inline-block; padding: 0 14px; border: 1px solid #fff; color: #fff; height: 28px; line-height: 28px; border-radius: 15px; }
+.left-pop-wechart-l { left: 0; margin-left: 0; }
+
+/* receipt */
+.receipt .f30 { font-size: 30px; font-family: 'MicrosoftYaHei'; }
+.receipt .b { margin-top: 30px; display: inline-block; padding: 0 24px; border: 1px solid #bbb; height: 34px; line-height: 34px; border-radius: 18px; font-size: 14px; color: #666; }
+
+/* center-pop-wechart */
+.center-pop-wechart { position: fixed; top: 50%; left: 50%; margin-top: -207px; margin-left: -180px; border-radius: 5px; background-color: #3daa6b; z-index: 1003; width: 250px; height: 374px; text-align: center; padding: 40px 55px 0; }
+.center-pop-wechart .closed { position: absolute; top: 20px; right: 10px; display: block; width: 16px; height: 16px; background: url('../../images/2019/wechart/closed.png') no-repeat; cursor: pointer; }
+.center-pop-wechart .t { font-size: 24px; color: #fff; font-weight: bold; line-height: 30px; margin-bottom: 15px; }
+.center-pop-wechart .con { border: 1px solid #eaeaea; background-color: #f0f0f0; padding-bottom: 15px; }
+.center-pop-wechart .e { padding-top: 35px; padding-bottom: 30px; background-color: #fff; }
+.center-pop-wechart .e img { display: block; margin: auto; width: 140px; height: 140px; }
+
+/* wechart-box */
+.wechart-box { position: relative; padding: 21px 20px 21px 120px; background-color: #f25618; line-height: 24px; }
+.wechart-box .l { position: absolute; top: -15px; left: 15px; padding: 5px; width: 80px; height: 80px; background-color: #fff; }
+.wechart-box .l::before { position: absolute; top: 5px; right: -10px; content: ''; border-width: 5px; border-style: solid; border-color: transparent transparent #a52f00 #a52f00; }
+.wechart-box .l img { display: block; width: 100%; height: 100%; }
+.wechart-box b { color: #fff; font-size: 14px; }
+.wechart-box p { color: #fff; font-size: 12px; opacity: .7; }
+
+/* 2019-09-27  #7738 */
+.left-pop-wechart {
+    z-index: 800;
+}
+
+.pop-cat {
+    position: fixed;
+    left: 0;
+    top: 570px;
+    z-index: 800;
+    width: 200px;
+    height: 176px;
+}
+
+    .pop-cat.dw {
+        left: 50%;
+        margin-left: -806px;
+    }

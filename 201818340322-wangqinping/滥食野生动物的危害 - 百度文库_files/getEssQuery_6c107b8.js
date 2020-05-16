@@ -1,0 +1,2 @@
+define("wkcommon:widget/ess/getEssQuery.js",function(e,r){var u,n="//wenku.baidu.com";r.getEssQuery=function(){var e=new $.Deferred;if(u)return e.resolve(u),e.promise();var r=T.url.getQueryValue(document.referrer,"eqid");return r&&r.length?$.ajax({url:n+"/common/api/getsearchquery",dataType:"json",type:"get",data:{eqid:r},success:function(r){r&&r.wd&&(str=r.wd,u=str),e.resolve(u)},error:function(){u="fengchao_no_query_search_default_query",e.resolve(u)}}):(u="fengchao_no_query_search_default_query",e.resolve(u)),e.promise()
+}});

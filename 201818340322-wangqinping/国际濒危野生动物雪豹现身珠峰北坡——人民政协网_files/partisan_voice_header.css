@@ -1,0 +1,35 @@
+﻿a{color:#333;text-decoration:none;outline:none; cursor:pointer}
+
+
+#header{width:100%;margin:0px auto; height:123px; background:url(../images/ns_top.jpg) repeat-x}
+#header *{overflow:hidden}
+.logo{height:89px; margin-right:10px}
+.logo img{height:89px}
+
+.pv_top{ height:89px;}
+.pv_nav{height:34px; line-height:32px;}
+.pv_nav a{font-family:"微软雅黑"; font-size:14px; color:#fff; display:block; float:left; padding:0px 30px;height:34px;}
+.pv_nav a:hover{ background:#3d3233}
+
+
+/*尾部样式*/
+#footer{margin-top:15px; padding:5px 0px;font-size:14px; text-align:center; background:#342c2a; border-top:6px solid #b61606; color:#999}
+#footer .img{margin:0px 10px}
+.gg a:hover img {filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;}
+
+
+/*标题*/
+.pv_title_1{height:40px; line-height:40px; margin-bottom:12px; background:url(../images/title_2.jpg) repeat-x;}
+.pv_title_1 .t{display:block; float:left; height:40px; font-weight:bold;font-family:"微软雅黑"}
+.pv_title_1 .t a{display:block; float:left; height:40px; font-size:14px;color:#333; padding:0px 10px; border-top:2px solid #666;background:url(../images/dot_h.jpg) no-repeat center -4px; position:relative; z-index:2}
+.pv_title_1 .t a:hover{background:url(../images/dot_h.jpg) no-repeat center 0px; color:#000}
+.pv_title_1 .t a:hover img{ position:relative; z-index:1}
+.site{ font-size:12px;color:#8d8d8d}
+.site a{margin:0px 5px; color:#8d8d8d}
+.pv_title_2{height:40px; line-height:40px; margin-bottom:12px; background:url(../images/title_2.jpg) repeat-x;}
+.cc_bgf7f7f7{ padding-bottom:15px;}
+.pv_title_2 .t{display:block; float:left; height:40px; font-weight:bold;font-family:"微软雅黑"; }
+.pv_title_2 .t a{display:block; float:left; height:40px; font-size:16px;color:#333; padding:0px 10px;background:url(../images/h.jpg) no-repeat center -4px; border-top:2px solid #c63223;}
+.pv_title_2 .t a:hover{background:url(../images/h.jpg) no-repeat center 0px; color:#b94a3f}
+.pv_title_2 .t a:hover img{position:relative; z-index:-1}
+.pv_title_2 .t .c{color:#999; font-size:12px; margin:0px 2px; text-decoration:none}

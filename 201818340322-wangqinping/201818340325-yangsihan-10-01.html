@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+			<meta charset="utf-8">
+			<title>登录页面</title>
+	</head>
+		<style type="text/css">
+			<!--
+				.container{
+					width:380px;
+					margin:0 auto;
+					background-color:#FF5809;
+					padding:20px;
+					}
+				.articleText{
+					font-family:"黑体";
+					}
+				.box{
+					width: 1200px;
+					height: 1000px;
+					background-color: #D0A17C;
+					}
+				.text{
+					font-family: "黑体";
+					font-size: 20px;
+					text-indent: 10em;
+					}
+			-->
+		</style>
+	<body class="box">
+		<br>
+		<p class="text">用户中心|登录</p>
+		<hr>
+		<br><br><br><br><br><br><br><br><br><br>
+		<div class="container-fluid"></div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
+		<div class="container">
+		<div class="row"></div>
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<form class="form-signin" target="submitFrame" method="post">
+				<p>用户中心</p><hr><br>
+			<label for="inputEmail">邮箱</label>
+				<input type="email" id="inputEmail" class="form-control" placeholder="请输入邮箱" required autofocus><br><br>
+			<label for="inputPassword">密码</label>
+				<input type="password" id="inputPassword" class="form-control" placeholder="请输入密码" required><br>
+		<div class="checkbox"><br>
+			<label>
+				<input type="checkbox" value="remember-me" checked="checked"> 记住密码 
+			</label>
+		</div><br>
+			<button type="submit" class="btn btn-primary" id="btn-login">登录</button>
+			<br><br>
+				<a href="reg.html" class="btn btn-default">注册</a>
+			</form>
+			</div>
+		<iframe style="display: none;" name="submitFrame" src="about:blank"></iframe>
+		</div>
+		<div class="col-md-4"></div>	
+	</body>
+	<br><br><br><br>
+</html>
